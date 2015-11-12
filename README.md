@@ -3,13 +3,12 @@
 ```
 // Goal-1
 // Create 5 different functions
-// let functiondelay, functiondelay2, functiondelay3, functiondelay4 and functiondelay5 be five functions
 // None of the functions have parameters
 
 // Goal-2
 // Every function is dependent on one another
 // Add time delays where one function must wait till the previous function gets completed
-// Time delay logic = functiondelay -> functiondelay2 -> functiondelay3 -> functiondelay4 -> functiondelay5
+// Time delay logic = A function must wait until the another functions completes the process.
 
 // deliverables
 // no test values should be added in any class
@@ -31,9 +30,9 @@ Technologies used:- (for running it overall)
 If running in command prompt, then set PATH and set CLASSPATH
 ```
 ```
-////////////////////////////////////
+/////////////////////////////////////
 PROGRAM OUTPUT --- "TimeDelay.java"
-///////////////////////////////////
+////////////////////////////////////
 
 Function1 exited.
 Loading... 
