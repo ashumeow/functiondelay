@@ -4,8 +4,16 @@ public class FunctionDelays {
         // do nothing
     }
     void functiondelay() {
-
-        System.out.println("function1 exited. \n");
+        // adding time delays
+        for(int i=0; i<10; i++) {
+            System.out.println("Starts Loading...\n");
+            try {
+                Thread.sleep(600);
+            } catch (InterruptedException ie) {
+                System.out.println(ie.getMessage());
+            }
+        }
+        System.out.println("function1 exited in 10 seconds. \n");
     }
 
     void functiondelay2() {
@@ -18,7 +26,7 @@ public class FunctionDelays {
                 System.out.println(ie.getMessage());
             }
         }
-        System.out.println("function2 exited in 10 seconds. \n");
+        System.out.println("function2 exited in 20 seconds. \n");
     }
 
     void functiondelay3() {
@@ -31,7 +39,7 @@ public class FunctionDelays {
                 System.out.println(ie.getMessage());
             }
         }
-        System.out.println("function3 exited in 10 seconds. \n");
+        System.out.println("function3 exited in 30 seconds. \n");
     }
 
     void functiondelay4() {
@@ -44,7 +52,7 @@ public class FunctionDelays {
                 System.out.println(ie.getMessage());
             }
         }
-        System.out.println("function4 exited in 10 seconds. \n");
+        System.out.println("function4 exited in 40 seconds. \n");
     }
 
     void functiondelay5() {
@@ -58,7 +66,7 @@ public class FunctionDelays {
             }
         }
 
-        System.out.println("function5 exited in 10 seconds. \n");
+        System.out.println("function5 exited in 50 seconds. \n");
     }
 
     public static void main(String[] args) {
