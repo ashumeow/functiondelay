@@ -1,3 +1,8 @@
+/**************/
+/*
+SOLUTION
+**************/
+/**/
 import java.lang.*;
 
 public class DoNotChange{
@@ -23,3 +28,31 @@ class Class2{
         System.out.println("Testing...");
     }
 }
+
+/***************/
+/** QUESTION **/
+/*****
+ public class DoNotChange{
+
+ public DoNotChange()
+ {
+ Class2 objClass2 = new Class2(obj);
+ }
+ }
+
+ // Calling Class 2 from Class1 without creating new object
+ public class Class1{
+ public Class1()
+ {
+ }
+
+ }
+
+ public class Class2{
+ public Class2(Object obj)
+ {
+
+ }
+ }
+
+ ***********************/
